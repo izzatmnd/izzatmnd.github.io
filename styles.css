@@ -10,6 +10,27 @@ font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/nois
 clear: both;
 }
 
+.main-nav{
+	display: flex;
+	list-style: none;
+	margin-right: auto;
+	font-size: 0.9em;
+}
+
+li{
+	padding: 8px;
+}
+/*
+.push {
+    margin-left: auto;
+}
+*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #page-wrap {
 width: 800px; margin: 40px auto 60px;
 }
