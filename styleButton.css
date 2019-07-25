@@ -63,8 +63,8 @@ a {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
 }
 
@@ -76,11 +76,45 @@ a {
 
 .gallery__item--1 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 6;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 6;
 }
 
+.gallery__item--1a {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--2a {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+
+.gallery__item--2 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 11;
+    grid-row-end: 15;
+}
+
+.gallery__item--3a {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 11;
+    grid-row-end: 15;
+}
 /***********************************************************************
  *  Footer
  **********************************************************************/
