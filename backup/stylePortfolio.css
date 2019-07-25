@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     font-family: Arial;
-    background-color:#02a39b;
+    background-color: #f5f5f5;
 }
 
 .zone {
@@ -27,7 +27,8 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 0.8em;
+    margin: 0;
+    font-size: 0.7em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -41,25 +42,20 @@ body {
     margin-left: auto;
 }
 
-ul {
-    padding: 0px;
-}
-
 li {
     padding: 20px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #
+    ;
+    text-decoration: none;
 }
 
 .sticky {
-    display: flex;
-    justify-content: left;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /***********************************************************************
@@ -112,11 +108,10 @@ a {
  *  Footer
  **********************************************************************/
 footer {
-  background-color: #232B2B;
-  color: #f5f5f5;
-  padding: 1em 0 10px;
-  text-align: center;
-}
+    text-align: center;
+    background-color: #191919;
+    text-decoration-color: #ffffff;
+
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
